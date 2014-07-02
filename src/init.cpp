@@ -794,8 +794,8 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     BOOST_FOREACH(string strDest, mapMultiArgs["-seednode"])
         AddOneShot(strDest);
-		AddOneShot("76.74.178.235");
-		AddOneShot("69.90.132.42");
+		AddOneShot("54.191.71.3");
+		AddOneShot("54.187.14.135");
 
     // ********************************************************* Step 7: load block chain
 
